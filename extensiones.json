@@ -1,11 +1,11 @@
 {
-  "extensiones_imagenes": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".jfif", ".avif", ".webp"],
+  "extensiones_imagenes": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".jfif", ".avif", ".webp", ".svg"],
   "extensiones_documentos": [".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".odt", ".ods", ".odp", ".rtf", ".md", ".csv", ".epub", ".tm"],
-  "extensiones_comprimidos": [".zip", ".rar", ".7z", ".tar", ".gz", ".tar.gz", ".tgz", ".bz2", ".tar.bz2", ".xz", ".tar.xz", ".lz", ".lzma", ".cab", ".iso", ".z", ".ace", ".arj", ".z7"],
+  "extensiones_comprimidos": [".zip", ".rar", ".7z", ".tar", ".gz", ".tar.gz", ".tgz", ".bz2", ".tar.bz2", ".xz", ".tar.xz", ".lz", ".lzma", ".cab", ".iso", ".z", ".ace", ".arj", ".z7", ".r2z"],
   "extensiones_audio": [".mp3", ".wav", ".flac", ".aac", ".ogg", ".wma", ".m4a", ".aiff", ".alac", ".opus", ".amr", ".midi", ".mid", ".pcm", ".dsd", ".ra", ".aif"],
   "extensiones_video": [".mp4", ".avi", ".mov", ".mkv", ".wmv", ".flv", ".webm", ".mpg", ".mpeg", ".3gp", ".ts", ".m4v", ".rm", ".rv", ".ogv", ".vob", ".qt", ".amv"],
   "extensiones_ejecutables": [".exe", ".bat", ".cmd", ".jar", ".msi", ".sh", ".app", ".apk", ".deb", ".rpm", ".bin", ".dmg", ".vbs", ".py"],
-  "extensiones_scripts": [".py", ".java", ".js", ".ts", ".html", ".css", ".xml", ".json", ".yaml", ".cpp", ".h", ".c", ".sh", ".bat", ".ps1", ".rb", ".go", ".r", ".php", ".swift", ".kotlin", ".lua", ".perl", ".pl", ".vbs", ".dart", ".scala", ".sql", ".plsql", ".hlsl", ".glsl", ".f90", ".racket", ".groovy", ".coffee", ".m", ".ex", ".erl", ".lisp", ".clj", ".prolog", ".tex", ".sty", ".ahk", ".scala", ".nim", ".dart", ".sml", ".awk", ".gd", ".cs"],
+  "extensiones_scripts": [".py", ".java", ".js", ".ts", ".html", ".css", ".xml", ".json", ".yaml", ".cpp", ".h", ".c", ".sh", ".bat", ".ps1", ".rb", ".go", ".r", ".php", ".swift", ".kotlin", ".lua", ".perl", ".pl", ".vbs", ".dart", ".scala", ".sql", ".plsql", ".hlsl", ".glsl", ".f90", ".racket", ".groovy", ".coffee", ".m", ".ex", ".erl", ".lisp", ".clj", ".prolog", ".tex", ".sty", ".ahk", ".scala", ".nim", ".dart", ".sml", ".awk", ".gd", ".cs", ".rkt"],
   "extensiones_mods": [".dll", ".fantome", ".package", ".esp", ".esm", ".pak", ".vpk", ".mod", ".mrf", ".ff7", ".dll", ".fantome", ".package", ".esp", ".esm", ".pak", ".vpk", ".mod", ".mrf", ".ff7", ".arc", ".chunk", ".bsa", ".swf", ".ini", ".yaml", ".json", ".rpy", ".save", ".mrpack", ".ckan", ".plsave", ".aidata", ".ts4script"],
   "extensiones_modelado_3d": [".fbx", ".blend", ".obj", ".stl", ".dae", ".3ds", ".ply", ".x", ".max", ".ase", ".lwo", ".ma", ".mb", ".smd", ".vtx", ".ms3d", ".fbx", ".usd", ".abc", ".dxf", ".gltf", ".glb", ".3mf", ".pmd", ".vmd", ".x3d", ".wrl"]
 }  
