@@ -6,6 +6,7 @@ import json
 
 # Obtener el nombre de usuario actual
 user_name = os.getlogin()
+log_route = f"C:/Users/{user_name}/Documents/movimientos_archivos.log"
 # Rutas de las carpetas
 descargas_path = Path(f"C:/Users/{user_name}/Downloads")
 imagenes_path = Path(f"C:/Users/{user_name}/Pictures/Imagenes Descargadas")
@@ -52,7 +53,7 @@ extensiones_modelado_3d = extensiones['extensiones_modelado_3d']
 
 # Configuración del log
 logging.basicConfig(
-    filename=f"C:/Users/{user_name}/Documents/movimientos_archivos.log",  # Archivo donde se guardarán los logs
+    filename=log_route,  # Archivo donde se guardarán los logs
     level=logging.INFO,                   # Nivel de log (INFO para registrar eventos importantes)
     format="%(asctime)s - %(message)s",    # Formato de mensaje (hora y mensaje)
 )
