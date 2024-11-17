@@ -19,7 +19,7 @@ Una vez hecho esto, simplemente escribe OrganizaDescargas en powershell, cmd o e
 	Si esto no funciona, copia el .exe de la carpeta "dist" tras update.ps1 en la ruta de tus variables del sistema, o ejecuta el .exe directamente.
 Puedes borrar la carpeta extraída una vez hayas movido el .exe a donde desees.
 
-Si tienes cualquier duda o problema, @Kero3110 en Discord
+Si tienes cualquier duda o problema, kero3110 en Discord
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -44,7 +44,7 @@ Once this is done, simply type OrganizaDescargas in powershell, cmd or in the se
 	If this doesn't work, copy the .exe from the "dist" folder after update.ps1 to the path of your system variables, or run the .exe directly.
 You can delete the extracted folder once you have moved the .exe to where you want.
 
-If you have any questions or problems, @Kero3110 on Discord
+If you have any questions or problems, kero3110 on Discord
 
 
 
