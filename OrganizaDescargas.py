@@ -63,8 +63,9 @@ def log_movimiento(src_file: Path, dest_file: Path) -> None:
     logging.info(f"Movido: {src_file} -> {dest_file}")
 
 # Función principal
+archivos_movidos = False  # Flag para saber si se movieron archivos
 def organiza_archivos(extensiones: list[str], destino: Path) -> None:
-    archivos_movidos = False  # Flag para saber si se movieron archivos
+    global archivos_movidos
     # Recorre solo los archivos en la carpeta de descargas
     for file in os.listdir(descargas_path):
         src_file = Path(descargas_path) / file
@@ -81,9 +82,7 @@ def organiza_archivos(extensiones: list[str], destino: Path) -> None:
             shutil.move(src_file, dest_file_path)
             log_movimiento(src_file, dest_file_path)  # Registra el movimiento en el log
             archivos_movidos = True
-    # Si no se movieron archivos
-    if not archivos_movidos:
-        print("No hay archivos que mover")
+
 
 # Organizar imágenes y documentos
 organiza_archivos(extensiones_imagenes, imagenes_path)
@@ -95,4 +94,7 @@ organiza_archivos(extensiones_ejecutables, ejecutables_path)
 organiza_archivos(extensiones_scripts, scripts_path)
 organiza_archivos(extensiones_mods, mods_path)
 organiza_archivos(extensiones_modelado_3d, objects_path)
+# Si no se movieron archivos
+if not archivos_movidos:
+    print("No hay archivos que mover")
 input("\nPresiona Enter para finalizar...")
